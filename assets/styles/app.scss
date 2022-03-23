@@ -1,0 +1,56 @@
+@import '~bootstrap/scss/bootstrap';
+@import './_variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f8ff;
+    footer{
+        background-color: #f3f3f3;
+        .d0{
+            color: #575757;
+            ul{
+                list-style: none;
+                a{
+                    color:#222222;
+                    text-decoration: none;
+                    letter-spacing: 0.7px;
+                }
+            }
+        }
+        .d1{
+            color: #575757;
+        }
+        .d2{
+            background-color: #d1d1d1;
+            color: #4d4d4d;
+        }
+
+    }
+    header{
+        background-color: #f3f3f3;
+
+    }
+}
+.headerButton{
+    //background-color: #be8544;
+    border-radius: 5px;
+    height: 90%;
+    a{
+        text-decoration: none;
+        color: #4e381e;
+    }
+}
+.inputText{
+    border: 2px solid#1f1f1f;
+    border-radius: 3px;
+}
+.inputText:focus{
+    width: 33%;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    border: none;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <title>Drewienko - MainPage</title>
+    <head>
+
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('/build/app.css') }}">
+            <link href="{{ asset('/build/app.css') }}" rel="stylesheet" crossorigin="anonymous">
+
+        {% endblock %}
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header class="fixed-top">
+                <div class="row pb-2 fw-bold">
+                    <div class="col-md-12 col-xl-3 text-center">
+                            <!--<img src="./assets/logo/larger-logo.png" alt="Logo" class="pt-1" style="height: 100px;">-->
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-xl-2 pt-3">
+                        <div class="pt-4 headerButton">
+                            <a href="" class="d-block text-center">
+                                Main Page
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-xl-2 pt-3">
+                        <div class="pt-4 headerButton">
+                            <a href="" class="d-block text-center">
+                                Our products
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-xl-2 pt-3">
+                        <div class="pt-4 headerButton">
+                            <a href="" class="d-block text-center">
+                                About us
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xl-3 pt-3 text-center">
+                        <form action="" class="">
+                            <div class="col-12 p-2">
+                                <div>
+                                    <input type="text" name="login" class="col-4 form-control w-50 mx-auto">
+                                </div>
+                                <div class="p-2">
+                                    <input type="password" name="password" class="col-4 form-control w-50 mx-auto">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <input type="button" name="" value="LogIn" class="col-6 btn btn-light w-25">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </header>
+        <main>
+            <img src="./assets/logo/larger-logo.png" alt="Logo" class="pt-1" style="height: 100px;">
+            
+            
+        </main>
+        <nav>
+
+        </nav>
+        <footer class="fixed-bottom">
+            <div class="row">
+                <div class="d0 col">
+                    <ul class="text-center">
+                        <div class="pt-1 fw-bold">
+                            Links:
+                        </div>
+                        
+                        <div class="row pt-2">
+                            <div class="col">
+                                <li>
+                                    <a href="">Main Page</a> 
+                                </li>
+                                <li class="pt-3">
+                                    <a href="">Browse</a>
+                                </li>
+                            </div>
+                            <div class="col">
+                                <li>
+                                    <a href="https://github.com/WojciechPrusaczyk">My GitHub</a>
+                                </li>
+                                <li class="pt-3">
+                                    <a href="">Contact me</a>
+                                </li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="d1 col p-5 text-center fw-bold">
+                    This is Website of a fictional woodworking brand located in Poland.
+                </div>
+            </div>
+            <div class="d2 text-center font-monospace">
+                Designed & Developed by Wojciech Prusaczyk
+            </div>
+        </footer>
+    </body>
+</html>
