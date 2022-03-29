@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<title>Drewienko - MainPage</title>
+<head>
+
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('/build/app.css') }}">
+    {% endblock %}
+    <meta charset="utf-8">
+    <script>
+
+    </script>
+</head>
+<body>
+<div class="container">
+<header class="w-100 row">
+    <div class="row pb-2 fw-bold">
+        <div class="col-md-12 col-xl-3 text-center">
+            <!--<img src="./assets/logo/larger-logo.png" alt="Logo" class="pt-1" style="height: 100px;">-->
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-2 pt-3">
+            <div class="pt-4 headerButton">
+                <a href="" class="d-block text-center">
+                    Main Page
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-2 pt-3">
+            <div class="pt-4 headerButton">
+                <a href="" class="d-block text-center">
+                    Our products
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-2 pt-3">
+            <div class="pt-4 headerButton">
+                <a href="" class="d-block text-center">
+                    About us
+                </a>
+            </div>
+        </div>
+        <div class="col-md-12 col-xl-3 pt-3 text-center">
+            <form action="" class="">
+                <div class="col-12 p-2">
+                    <div>
+                        <input type="text" name="login" class="col-4 form-control w-50 mx-auto" value="Login" onfocusout="this.value='Login'" onfocus="this.value=''">
+                    </div>
+                    <div class="p-2">
+                        <input type="password" name="password" class="col-4 form-control w-50 mx-auto" value="Password" onfocusout="this.value='Password'" onfocus="this.value=''">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <input type="button" name="" value="LogIn" class="col-6 btn btn-light w-25">
+                </div>
+            </form>
+        </div>
+    </div>
+</header>
+
+<main class="row text-center">
+        <div class="col pt-5">
+            <form action="GET">
+                Product name:<br><input type="text" value="" class="mb-2 mt-1 form-control w-50 mx-auto"><br>
+                Price:<br><input type="text" value="" class="mb-2 mt-1 form-control w-50 mx-auto"><br>
+                Description:<br><input type="text" value="" class="mb-2 mt-1 form-control w-50 mx-auto"><br>
+                Tags:<br><input type="text" value="" class="mb-2 mt-1 form-control w-50 mx-auto"><br>
+                <input type="submit" value="Upload Product" class="btn btn-light">
+            </form>
+        </div>
+</main>
+<footer class="fixed-bottom row">
+        <div class="d0 col">
+            <ul class="text-center">
+                <div class="pt-1 fw-bold">
+                    Links:
+                </div>
+
+                <div class="row pt-2">
+                    <div class="col">
+                        <li>
+                            <a href="">Main Page</a>
+                        </li>
+                        <li class="pt-3">
+                            <a href="">Browse</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li>
+                            <a href="https://github.com/WojciechPrusaczyk">My GitHub</a>
+                        </li>
+                        <li class="pt-3">
+                            <a href="">Contact me</a>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="d1 col p-5 text-center fw-bold">
+            This is Website of a fictional woodworking brand located in Poland.
+        </div>
+    <div class="d2 text-center font-monospace">
+        Designed & Developed by Wojciech Prusaczyk
+    </div>
+</footer>
+</div>
+</body>
+</html>

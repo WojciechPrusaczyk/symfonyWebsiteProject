@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
@@ -11,6 +12,8 @@ class mainPageController extends AbstractController{
      */
     public function index() :Response
     {
+
+
         return $this->render('index.html.twig');
     }
 }
