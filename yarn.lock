@@ -980,6 +980,11 @@
     error-stack-parser "^2.0.0"
     string-width "^4.2.3"
 
+"@popperjs/core@^2.11.4":
+  version "2.11.4"
+  resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.4.tgz"
+  integrity sha512-q/ytXxO5NKvyT37pmisQAItCFqA7FD/vNb8dgaJy3/630Fsc+Mz9/9f2SziBoIZ30TJooXyTwZmhi1zjXmObYg==
+
 "@symfony/stimulus-bridge@^3.0.0":
   version "3.0.0"
   resolved "https://registry.npmjs.org/@symfony/stimulus-bridge/-/stimulus-bridge-3.0.0.tgz"

@@ -63,3 +63,9 @@ body{
     background-color: #f3f3f3;
     border: none;
 }
+.uploadForm{
+    input[type="text"]{
+        width: 150%;
+        height: 20%;
+    }
+}
